@@ -1,0 +1,45 @@
+version: "3.1"
+
+stories:
+
+- story: greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: corona intro
+  steps:
+  - intent: corona_intro
+  - action: utter_corona_intro
+
+
+- story: corona spread
+  steps:
+  - intent: corona_spread
+  - action: utter_corona_spread
+
+
+
+- story: corona food spread
+  steps:
+  - intent: corona_food_spread
+  - action: utter_corona_food_spread
+
+
+
+- story: corona warm weather
+  steps:
+  - intent: warm_weather
+  - action: utter_warm_weather
+
+
+- story: corona_high_risk
+  steps:
+  - intent: high_risk
+  - action: utter_high_risk
